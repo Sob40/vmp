@@ -1,0 +1,26 @@
+{
+  "name": "votamiperro-server",
+  "version": "1.0.0",
+  "description": "Servidor Api RESTful para aplicacion votamiperro ionic2 nodejs mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandre Sargues",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "express-paginate": "^0.2.2",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.17.1",
+    "mongoose": "^4.7.7",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
